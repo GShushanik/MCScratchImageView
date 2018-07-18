@@ -14,7 +14,7 @@ public protocol MCScratchImageViewDelegate {
     
 }
 
-public class MCScratchImageView: UIImageView {
+open class MCScratchImageView: UIImageView {
 
     // MARK: Public stored properties
     public var delegate: MCScratchImageViewDelegate?
@@ -231,14 +231,14 @@ public class MCScratchImageView: UIImageView {
     }
     
     // MARK: - touch event handler
-    override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override open func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
         if (self.image == nil) {return}
         self.image = self.addTouches(touches)
         
     }
     
-    override public func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override open func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         
         if (self.image == nil) {return}
         self.image = self.addTouches(touches)
