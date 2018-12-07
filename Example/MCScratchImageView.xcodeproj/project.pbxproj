@@ -21,10 +21,6 @@
 		E7E8E6011FF3D46C0065E6E6 /* bonus1-scratch.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E8E5FD1FF3D46C0065E6E6 /* bonus1-scratch.png */; };
 		E7E8E6021FF3D46C0065E6E6 /* bonus2-scratch.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E8E5FE1FF3D46C0065E6E6 /* bonus2-scratch.png */; };
 		E7E8E6031FF3D46C0065E6E6 /* bonus2.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E8E5FF1FF3D46C0065E6E6 /* bonus2.png */; };
-		E7E8E6041FF3D4750065E6E6 /* bonus1-scratch.png in Sources */ = {isa = PBXBuildFile; fileRef = E7E8E5FD1FF3D46C0065E6E6 /* bonus1-scratch.png */; };
-		E7E8E6051FF3D4750065E6E6 /* bonus1.png in Sources */ = {isa = PBXBuildFile; fileRef = E7E8E5FC1FF3D46C0065E6E6 /* bonus1.png */; };
-		E7E8E6061FF3D4750065E6E6 /* bonus2-scratch.png in Sources */ = {isa = PBXBuildFile; fileRef = E7E8E5FE1FF3D46C0065E6E6 /* bonus2-scratch.png */; };
-		E7E8E6071FF3D4750065E6E6 /* bonus2.png in Sources */ = {isa = PBXBuildFile; fileRef = E7E8E5FF1FF3D46C0065E6E6 /* bonus2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -188,13 +184,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7E8E6041FF3D4750065E6E6 /* bonus1-scratch.png in Sources */,
-				E7E8E6051FF3D4750065E6E6 /* bonus1.png in Sources */,
 				E7533F211FF3E58700FB3785 /* MainTabBarController.swift in Sources */,
 				E7533F291FF4C78900FB3785 /* PopScratchViewController.swift in Sources */,
 				E7533F271FF40EAC00FB3785 /* CustomScratchViewController.swift in Sources */,
-				E7E8E6061FF3D4750065E6E6 /* bonus2-scratch.png in Sources */,
-				E7E8E6071FF3D4750065E6E6 /* bonus2.png in Sources */,
 				E758DA831FF3D7F7003239FC /* ScratchViewController.swift in Sources */,
 				E790586C1FF25173000138BF /* MCScratchImageView.swift in Sources */,
 				E79058591FF25129000138BF /* AppDelegate.swift in Sources */,
