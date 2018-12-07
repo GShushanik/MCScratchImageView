@@ -23,19 +23,19 @@ class MainTabBarController: UITabBarController {
         vc1.tabBarItem.title = "Default"
         vc1.tabBarItem.image = UIImage(named: "barItem")
         vc1.tabBarItem.selectedImage = UIImage(named: "barItem_selected")
-        self.addChildViewController(vc1)
+        self.addChild(vc1)
         
         let vc2 = storyBoard.instantiateViewController(withIdentifier: "CustomScratchVC")
         vc2.tabBarItem.title = "Custom"
         vc2.tabBarItem.image = UIImage(named: "barItem")
         vc2.tabBarItem.selectedImage = UIImage(named: "barItem_selected")
-        self.addChildViewController(vc2)
+        self.addChild(vc2)
         
         let vc3 = storyBoard.instantiateViewController(withIdentifier: "PopScratchVC")
         vc3.tabBarItem.title = "ScratchVC"
         vc3.tabBarItem.image = UIImage(named: "barItem")
         vc3.tabBarItem.selectedImage = UIImage(named: "barItem_selected")
-        self.addChildViewController(vc3)
+        self.addChild(vc3)
     }
 
 }
